@@ -41,3 +41,45 @@ body
                     transition: all .3s ease
                     &:hover
                         border-bottom: 2px solid white
+    .catalogo
+        width: 100%
+        .contenedor
+            width: 80%
+            margin: auto
+            .titulo
+                font-size: 3em
+                text-align: center
+                margin: 50px 0
+            .productos
+                width: 100%
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                justify-content: space-between
+                .producto
+                    margin-bottom: 30px
+                    width: 30%
+                    height: auto
+                    background: white
+                    box-shadow: 0 0 5px gray
+                    .foto
+                        width: 100%
+                        img
+                            width: 380px
+                            vertical-align: top
+                    .texto-descriptivo
+                        padding: 30px
+                        color: #000
+                        overflow: hidden
+                        .nombre
+                            font-size: 1.8em
+                            font-weight: 700
+                            float: left
+                        .precio
+                            font-size: 1.8em
+                            font-weight: 700
+                            color: crimson
+                            text-align: right
+                        .descripcion
+                            margin-top: 15px
+                            width: 100%

@@ -41,5 +41,47 @@ body {
           transition: all 0.3s ease; }
           body header .contenedor .nav-menu a:hover {
             border-bottom: 2px solid white; }
+  body .catalogo {
+    width: 100%; }
+    body .catalogo .contenedor {
+      width: 80%;
+      margin: auto; }
+      body .catalogo .contenedor .titulo {
+        font-size: 3em;
+        text-align: center;
+        margin: 50px 0; }
+      body .catalogo .contenedor .productos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        body .catalogo .contenedor .productos .producto {
+          margin-bottom: 30px;
+          width: 30%;
+          height: auto;
+          background: white;
+          box-shadow: 0 0 5px gray; }
+          body .catalogo .contenedor .productos .producto .foto {
+            width: 100%; }
+            body .catalogo .contenedor .productos .producto .foto img {
+              width: 380px;
+              vertical-align: top; }
+          body .catalogo .contenedor .productos .producto .texto-descriptivo {
+            padding: 30px;
+            color: #000;
+            overflow: hidden; }
+            body .catalogo .contenedor .productos .producto .texto-descriptivo .nombre {
+              font-size: 1.8em;
+              font-weight: 700;
+              float: left; }
+            body .catalogo .contenedor .productos .producto .texto-descriptivo .precio {
+              font-size: 1.8em;
+              font-weight: 700;
+              color: crimson;
+              text-align: right; }
+            body .catalogo .contenedor .productos .producto .texto-descriptivo .descripcion {
+              margin-top: 15px;
+              width: 100%; }
 
 /*# sourceMappingURL=estilos.css.map */
